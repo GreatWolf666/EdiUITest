@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Size="1793.79,1793.79" xmlns="MiniUml">
+  <Class
+    Name="ConfigViewModel"
+    ID="auto_0"
+    Position="20.6666666666667,23.6666666666667,195,69"
+    Stereotype="" />
+  <Class
+    Name="DialogViewModelBase"
+    ID="auto_1"
+    Position="259.666666666667,21.6666666666667,195,69"
+    Stereotype="" />
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="215.666666666667,60.6666666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="259.666666666667,60.6666666666667" />
+  </Inheritance>
+</Document>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Size="1793.79,1793.79" xmlns="MiniUml">
+  <Class
+    Name="System.Windows.Controls.UserControl"
+    ID="auto_3"
+    Position="641.270833333333,138.166666666667,320,75"
+    Stereotype="" />
+  <Class
+    Name="GenericUmlAssociation"
+    ID="auto_4"
+    Position="109.270833333333,71.1666666666666,160,75"
+    Stereotype="" />
+  <Boundary
+    Name="MiniUML.Plugins.UmlClassDiagram.Controls.View.Connect"
+    ID=""
+    Position="19.2708333333333,14.1666666666666,489,438" />
+  <Class
+    Name="ThreePieceLine"
+    ID="auto_0"
+    Position="111.270833333333,171.166666666667,160,75"
+    Stereotype="" />
+  <Interface
+    Name="INotifyPropertyChanged"
+    ID="auto_1"
+    Position="284.270833333333,280.166666666667,160,75"
+    Stereotype="«interface»" />
+  <Interface
+    Name="ISnapTarget"
+    ID="auto_2"
+    Position="111.270833333333,280.166666666667,160,75"
+    Stereotype="«interface»" />
+  <Association
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="">
+    <Anchor
+      Name=""
+      ID=""
+      Position="271.270833333333,228.326666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="363.270833333333,280.166666666667" />
+  </Association>
+  <Association
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow=""
+    To="auto_2"
+    ToArrow="">
+    <Anchor
+      Name=""
+      ID=""
+      Position="186.270833333333,246.166666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="186.270833333333,280.166666666667" />
+  </Association>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow=""
+    To="auto_3"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="271.270833333333,208.326666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="641.270833333333,180.326666666667" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_4"
+    FromArrow=""
+    To="auto_3"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="269.270833333333,112.326666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="641.270833333333,157.326666666667" />
+  </Inheritance>
+  <Note
+    Name=""
+    ID=""
+    Position="553.270833333333,236.166666666667,408,216">
+    <Text>This diagram shows the MiniUML connector controls that
+are responsible for displaying connecting (e.g. arrows) elements
+between the shapes of a diagram.
+
+The ISnapTarget interface implements the snap functionality that lets
+connectors snap to a certain shape when the user draws over that
+shape (or into its vicinity).
+
+Whether the INotifyPropertyChanged interface is still required or
+not, or what it is good for is not known at this time.</Text>
+  </Note>
+</Document>

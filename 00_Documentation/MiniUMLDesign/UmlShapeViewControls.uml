@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Size="1793.79,1793.79" xmlns="MiniUml">
+  <Boundary
+    Name="MiniUML.Plugins.UmlClassDiagram.Controls.View.Shapes"
+    ID=""
+    Position="332.359307359307,18.560606060606,507.954545454546,728.409090909091" />
+  <Class
+    Name="Base.ShapeViewBase"
+    ID="auto_1"
+    Position="354.060606060606,152.151515151516,147,75"
+    Stereotype="" />
+  <Class
+    Name="UmlUseCaseShape"
+    ID="auto_0"
+    Position="625.060606060605,39.1515151515155,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlSquareShape"
+    ID="auto_2"
+    Position="626.060606060605,133.318181818183,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlPackageShape"
+    ID="auto_3"
+    Position="626.060606060605,227.484848484849,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlNodeShape"
+    ID="auto_4"
+    Position="628.060606060605,321.651515151515,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlDecisionShape"
+    ID="auto_5"
+    Position="630.060606060605,415.818181818183,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlCommentShape"
+    ID="auto_6"
+    Position="631.060606060605,509.984848484847,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlCanvasShape"
+    ID="auto_7"
+    Position="632.060606060605,604.151515151514,178,75"
+    Stereotype="" />
+  <Class
+    Name="UmlBoundaryShape"
+    ID="auto_8"
+    Position="352.534290271132,656.992089314193,178,75"
+    Stereotype="" />
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="625.060606060605,81.3115151515155" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="501.060606060606,161.41677830941" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_2"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="626.060606060605,179.311515151515" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="501.060606060606,179.350988835727" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_3"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="626.060606060605,268.311515151515" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="501.060606060606,200.835725677831" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_4"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="628.060606060605,360.311515151515" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="493.060606060605,227.151515151516" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_5"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="630.060606060605,458.311515151515" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="465.060606060605,227.151515151516" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_6"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="631.060606060605,552.311515151515" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="439.060606060605,227.151515151516" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_7"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="632.060606060605,622.943094098883" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="415.060606060605,227.151515151516" />
+  </Inheritance>
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_8"
+    FromArrow=""
+    To="auto_1"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="392.0240861895,656.992089314193" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="392.060606060606,227.151515151516" />
+  </Inheritance>
+  <Note
+    Name=""
+    ID=""
+    Position="15.333333333333,20.1515151515153,307,89">
+    <Text>This diagram shows the view control classes
+that are responsible for displaying shapes on
+the canvas.</Text>
+  </Note>
+  <Class
+    Name="System.Windows.Controls.Control"
+    ID="auto_9"
+    Position="99.515151515151,152.151515151516,210.636363636364,75"
+    Stereotype="" />
+  <Inheritance
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_1"
+    FromArrow=""
+    To="auto_9"
+    ToArrow="Uml.Arrows.Triangle">
+    <Anchor
+      Name=""
+      ID=""
+      Position="354.060606060606,191.469696969697" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="310.181818181818,191.469696969697" />
+  </Inheritance>
+  <Interface
+    Name="ISnapTarget"
+    ID="auto_A"
+    Position="354.060606060606,42.1969696969698,147,75"
+    Stereotype="«interface»" />
+  <Association
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_1"
+    FromArrow=""
+    To="auto_A"
+    ToArrow="">
+    <Anchor
+      Name=""
+      ID=""
+      Position="427.651515151515,152.151515151516" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="427.60210803689,117.19696969697" />
+  </Association>
+</Document>

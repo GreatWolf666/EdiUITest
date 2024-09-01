@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document
+  Size="1793.79,1793.79" xmlns="MiniUml">
+  <Class
+    Name="ThemesManager"
+    ID="auto_0"
+    Position="83.6666666666667,493.291666666667,109,70"
+    Stereotype="" />
+  <Class
+    Name="EditorThemeBase"
+    ID="auto_1"
+    Position="249.666666666667,489.291666666667,123,75"
+    Stereotype="" />
+  <Boundary
+    Name="Themes Assembly"
+    ID=""
+    Position="27.6666666666667,448.291666666667,417,171" />
+  <Composition
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_0"
+    FromArrow="Uml.Diamonds.Black"
+    To="auto_1"
+    ToArrow="">
+    <Anchor
+      Name=""
+      ID=""
+      Position="192.666666666667,527.291666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="249.666666666667,527.291666666667" />
+  </Composition>
+  <Boundary
+    Name="EdiViews.Config.ViewModel"
+    ID=""
+    Position="19.6666666666667,18.2916666666667,238,154" />
+  <Class
+    Name="ConfigViewModel"
+    ID="auto_2"
+    Position="80.6666666666667,82.2916666666667,129,75"
+    Stereotype="" />
+  <Association
+    Name=""
+    ID=""
+    Position="0,0"
+    From="auto_2"
+    FromArrow=""
+    To="auto_0"
+    ToArrow="">
+    <Anchor
+      Name=""
+      ID=""
+      Position="147.666666666667,157.291666666667" />
+    <Anchor
+      Name=""
+      ID=""
+      Position="147.666666666667,493.291666666667" />
+  </Association>
+  <Note
+    Name=""
+    ID=""
+    Position="156.666666666667,188.291666666667,529,239">
+    <Text>This diagram shows the ThemesManager class which is responsible for managing WPF themes and all their associated resources.
+
+The class has a static Instance property that can be accessed to get all theme service relevant functions, such as, retrieving a list of all currently available themes, the currently selected theme etc...
+
+A list of EditorThemeBase objects is exposed for binding to UI collections that can manipulate the IsSelected property (e.g. MenuItem). The currently selected theme is changed via the
+
+ThemesManager.Instance.SetSelectedTheme
+
+method.</Text>
+  </Note>
+  <Note
+    Name=""
+    ID=""
+    Position="265.666666666667,8.29166666666669,307,75">
+    <Text>The ConfigViewModel displays the current configuration and is loaded and saved upon start and exit of the application.</Text>
+  </Note>
+</Document>
